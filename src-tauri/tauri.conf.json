@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Levcoin Wallet",
+  "version": "0.1.3",
+  "identifier": "com.levcoin.wallet",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Levcoin Wallet",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "resources": [
+      "resources/walletd/bin/walletd",
+      "resources/walletd/bin/walletd.exe",
+      "resources/walletd/lib-boost/*"
+    ],
+    "publisher": "github.com/l00",
+    "copyright": "© 2026",
+    "shortDescription": "Levcoin GUI Wallet",
+    "longDescription": "Open-source feature-rich wallet with a customizible GUI for the Levcoin cryptocurrency.",
+
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
+

@@ -1,0 +1,118 @@
+{
+  "common": {
+    "refresh": "Refresh",
+    "save": "Save",
+    "saved": "Saved",
+    "copy": "Copy",
+    "copied": "Copied",
+    "loading": "loading",
+    "somethingWrong": "Something went wrong"
+  },
+  "nav": {
+    "balance": "Balance",
+    "receive": "Receive",
+    "send": "Send",
+    "history": "History",
+    "settings": "Settings",
+    "lock": "Lock wallet"
+  },
+  "balance": {
+    "title": "Balance",
+    "available": "Available",
+    "lockedPending": "Locked / pending",
+    "lockedLine": "Locked {amount} {sym}"
+  },
+  "receive": {
+    "title": "Receive",
+    "yourAddresses": "Your addresses",
+    "noAddresses": "No addresses yet.",
+    "createAddress": "Create new address"
+  },
+  "backup": {
+    "title": "Private keys",
+    "reveal": "Reveal",
+    "intro": "Reveal the wallet's secret keys.",
+    "warning": "⚠️ These keys give full access to your Levcoins, don't share them!",
+    "mnemonicSeed": "Mnemonic seed",
+    "spendSecretKey": "Spend key",
+    "viewSecretKey": "View key"
+  },
+  "history": {
+    "title": "History",
+    "transactions": "Transactions",
+    "none": "No transactions yet.",
+    "loadAll": "Show all",
+    "received": "Received",
+    "sent": "Sent",
+    "pending": "Pending",
+    "pendingTag": "pending",
+    "feeTag": "fee {amount} {sym}"
+  },
+  "send": {
+    "title": "Send",
+    "destinationAddress": "Recipient address",
+    "amount": "Amount ({sym})",
+    "showAdvanced": "Advanced options",
+    "hideAdvanced": "Hide",
+    "fee": "Fee ({sym})",
+    "autoSet": "Auto-set",
+    "mixin": "Mixin (anonymity)",
+    "paymentId": "Payment ID",
+    "optional": "Optional",
+    "sendTransaction": "Send",
+    "sentHash": "Sent. Hash:",
+    "errNoAddress": "Enter an address.",
+    "errAmount": "Enter a valid amount.",
+    "errFee": "Enter a valid fee."
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "light": "☀ Light",
+    "dark": "☾ Dark",
+    "colorTheme": "Color theme",
+    "language": "Language",
+    "network": "Network",
+    "rpcUrl": "walletd RPC URL",
+    "rpcHint": "Point at your running walletd PaymentService. Default: {url}",
+    "testConnection": "Test connection",
+    "connectedLine": "Connected to walletd - {synced}, {peers} peers",
+    "blocksLine": "{blocks}/{known} blocks"
+  },
+  "wallet": {
+    "subtitle": "Welcome!",
+    "openTab": "Open wallet",
+    "createTab": "New wallet",
+    "wallets": "Wallets",
+    "chooseFile": "Choose wallet file…",
+    "chooseFileTitle": "Choose wallet file",
+    "fileName": "Wallet file name",
+    "openingFrom": "Opening from: {path}",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "openBtn": "Open",
+    "createBtn": "Create & open",
+    "createWarning": "⚠️ If you lose the file/password you will lose your Levcoins.",
+    "showAdvanced": "Advanced settings",
+    "hideAdvanced": "Hide",
+    "walletdBinary": "walletd binary",
+    "walletdBinaryHint": "Leave empty to use the walletd bundled with the app; or set an absolute path to your own build",
+    "walletdBinaryPlaceholder": "Bundled walletd (leave empty)",
+    "libPath": "Library path (optional)",
+    "libPathHint": "Bundle libs (lib-boost) are auto-detected; override here if needed",
+    "daemonAddress": "Daemon address",
+    "daemonAddressHint": "The node walletd connects to",
+    "bindPort": "walletd bind port",
+    "walletsFolder": "Wallets folder",
+    "errEnterName": "Enter a wallet name.",
+    "errEnterPassword": "Enter the wallet password.",
+    "errPasswordMismatch": "Passwords do not match.",
+    "busyCreating": "Creating wallet…",
+    "busyStarting": "Starting walletd…",
+    "busyWaiting": "Waiting for walletd…"
+  },
+  "errors": {
+    "incorrectPassword": "Incorrect password!",
+    "notReady": "walletd did not become ready ({reason}). Check the password, the daemon address, and that the bind port is free."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "common": {
+    "refresh": "Опресни",
+    "save": "Запази",
+    "saved": "Запазено",
+    "copy": "Копирай",
+    "copied": "Копирано",
+    "loading": "loading",
+    "somethingWrong": "Грешка"
+  },
+  "nav": {
+    "balance": "Баланс",
+    "receive": "Получаване",
+    "send": "Изпращане",
+    "history": "История",
+    "settings": "Настройки",
+    "lock": "Закл. портфейл"
+  },
+  "balance": {
+    "title": "Баланс",
+    "available": "Наличен",
+    "lockedPending": "Заключени / в изчакване",
+    "lockedLine": "Закл. {amount} {sym}"
+  },
+  "receive": {
+    "title": "Получаване",
+    "yourAddresses": "Адреси",
+    "noAddresses": "Все още няма адреси.",
+    "createAddress": "Нов адрес"
+  },
+  "backup": {
+    "title": "Частни ключове",
+    "reveal": "Покажи",
+    "intro": "Покажи частните ключове на портфейла.",
+    "warning": "⚠️ Тези ключове дават пълен достъп до Левкойните ти, не ги споделяй!",
+    "mnemonicSeed": "Mnemonic seed",
+    "spendSecretKey": "Ключ за харчене",
+    "viewSecretKey": "Ключ за преглед"
+  },
+  "history": {
+    "title": "История",
+    "transactions": "Транзакции",
+    "none": "Все още няма транзакции.",
+    "loadAll": "Покажи всички",
+    "received": "Получени",
+    "sent": "Изпратени",
+    "pending": "Изчакващи",
+    "pendingTag": "pending",
+    "feeTag": "Такса {amount} {sym}"
+  },
+  "send": {
+    "title": "Изпрати",
+    "destinationAddress": "Адрес на получателя",
+    "amount": "Сума ({sym})",
+    "showAdvanced": "Допълнители опции",
+    "hideAdvanced": "Скрий",
+    "fee": "Таска ({sym})",
+    "autoSet": "Автоматично",
+    "mixin": "Mixin (анонимност)",
+    "paymentId": "ID на плащането",
+    "optional": "По избор",
+    "sendTransaction": "Изпрати",
+    "sentHash": "Изпратено. Хеш: ",
+    "errNoAddress": "Невалиден адрес.",
+    "errAmount": "Невалидна сума.",
+    "errFee": "Невалидна такса"
+  },
+  "settings": {
+    "title": "Настройки",
+    "appearance": "Изглед",
+    "light": "☀ Светъл",
+    "dark": "☾ Тъмен",
+    "colorTheme": "Цвят",
+    "language": "Език",
+    "network": "Мрежа",
+    "rpcUrl": "walletd RPC URL",
+    "rpcHint": "Посочете включен walletd PaymentService. По подразбиране: {url}",
+    "testConnection": "Тестване на връзката",
+    "connectedLine": "Свързан към walletd - {synced}, {peers} peers",
+    "blocksLine": "{blocks}/{known} блока"
+  },
+  "wallet": {
+    "subtitle": "Добре дошли!",
+    "openTab": "Отваряне на портфейл",
+    "createTab": "Нов портфейл",
+    "wallets": "Портфейли",
+    "chooseFile": "Изберете файл на портфейл...",
+    "chooseFileTitle": "Изберете файл на портфейл",
+    "fileName": "Име на файла",
+    "openingFrom": "Отваряне от {path}",
+    "password": "Парола",
+    "confirmPassword": "Потвърдете парола",
+    "openBtn": "Отваряне",
+    "createBtn": "Създаване & отваряне",
+    "createWarning": "⚠️ Ако загубите файла/паролата ще гаубите Левкойните си.",
+    "showAdvanced": "Още настройки",
+    "hideAdvanced": "Скрий",
+    "walletdBinary": "walletd binary",
+    "walletdBinaryHint": "Оставете празно, за да се използва walletd, вграден в приложението; или задайте абсолютен път към ваша версия",
+    "walletdBinaryPlaceholder": "Вграден walletd (оставете празно)",
+    "libPath": "Library path (по избор)",
+    "libPathHint": "Bundle libs (lib-boost) се откриват автоматично; променете ако е нужно.",
+    "daemonAddress": "Daemon адрес",
+    "daemonAddressHint": "Node, към който walletd се свързва",
+    "bindPort": "walletd bind port",
+    "walletsFolder": "Директория на портфейлите",
+    "errEnterName": "Празно име на портфейл.",
+    "errEnterPassword": "Празна парола.",
+    "errPasswordMismatch": "Паролите не съвпадат.",
+    "busyCreating": "Създаване на портфейл...",
+    "busyStarting": "Стартира walletd...",
+    "busyWaiting": "Изчакване на walletd..."
+  },
+  "errors": {
+    "incorrectPassword": "Грешна парола!",
+    "notReady": "walletd не тръгна ({reason}). Проверете паролата, daemon адреса и дали е свободен порта."
+  }
+}
